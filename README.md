@@ -1,7 +1,7 @@
-#🚀 Sobre o Projeto
+# 🚀 Sobre o Projeto
 O ForumHub é uma solução de backend que permite aos utilizadores interagir através da criação, visualização, atualização e exclusão de tópicos. A aplicação utiliza autenticação via JWT (JSON Web Token) para garantir que apenas utilizadores autorizados possam realizar operações de escrita e leitura na base de dados.
 
-##🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 Java 21: Versão mais recente do Java com suporte a longo prazo.
 
 Spring Boot 3 (v4.0.3): Framework principal para a construção da API.
@@ -18,7 +18,7 @@ Lombok: Redução de código boilerplate (Getters, Setters, etc.).
 
 Jakarta Validation: Validação rigorosa dos dados de entrada.
 
-##📋 Funcionalidades Principais
+## 📋 Funcionalidades Principais
 🔐 Autenticação e Segurança
 Login: Autenticação de utilizadores com login e senha encriptada via BCrypt.
 
@@ -37,7 +37,7 @@ Atualizar: Modificação de informações de um tópico existente.
 
 Excluir (Soft Delete): Desativação lógica de um tópico sem removê-lo fisicamente da base de dados.
 
-##⚙️ Configuração do Ambiente
+## ⚙️ Configuração do Ambiente
 Variáveis de Ambiente Necessárias
 Para rodar a aplicação, configure as seguintes variáveis no seu application.properties ou no ambiente do seu sistema:
 
@@ -60,7 +60,7 @@ Bash
 ./mvnw spring-boot:run
 A API estará disponível em http://localhost:8080.
 
-##📖 Exemplo de Requisição (Postman)
+## 📖 Exemplo de Requisição (Postman)
 1. Login para obter o token:
 
 Método: POST
@@ -92,7 +92,7 @@ JSON
   "autor": "Thalles",
   "curso": "Spring Boot"
 }
-##🏗️ Estrutura de Pacotes
+## 🏗️ Estrutura de Pacotes
 controller: Endpoints da API.
 
 domain: Entidades JPA e regras de negócio.
